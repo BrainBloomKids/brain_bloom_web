@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://BasSondag.github.io/brain_bloom_web",
+  "homepage": "https://BrainBloomKids.github.io/brain_bloom_web",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
