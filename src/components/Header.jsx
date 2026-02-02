@@ -6,12 +6,12 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="bg-mint-100 text-white p-4 flex justify-between items-center">
+    <header className="bg-mint-100 text-white p-4 flex justify-between items-end">
       {/* Logo + Title */}
       <div className="flex items-end">
         <img src={Logo} alt="Brain Bloom Logo" className="w-[80px] h-[80px]" />
         <h1 className="text-3xl font-brand text-mint-900 mb-3 -ml-3">
-          Brain Bloom Kids
+          BrainBloomKids
         </h1>
       </div>
 
@@ -24,15 +24,15 @@ export default function Header() {
       </button>
 
       {/* Desktop Menu */}
-      <nav className="hidden md:flex flex-row gap-6">
+      <nav className="hidden md:flex flex-row gap-6 mb-2 mr-6 items-end">
         <NavLink to="/"className={({ isActive }) =>
-              `text-4xl font-brand mb-5 ${
+              ` flex items-end text-3xl font-brand  ${
                   isActive ? "text-violet-900" : "text-mint-900"
               } hover:text-mint-800`
             }>Home
           </NavLink>
           <NavLink to="/about" className={({ isActive }) =>
-            `text-4xl font-brand mb-5 ${
+            `text-3xl font-brand  ${
               isActive ? "text-violet-900" : "text-mint-900"
             } hover:text-mint-800`
           }>About

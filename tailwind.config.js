@@ -43,6 +43,19 @@ export default {
                 800: '#00B377',
                 900: '#007A4D',
             },
+            yellow: {
+                DEFAULT: '#F4C300',
+                50: '#FFF8E1', 
+                100: '#FFEFB3',
+                200: '#FFE580', 
+                300: '#FFDA4D', 
+                400: '#FFD01A', 
+                500: '#F4C300', // base color
+                600: '#D4A700', 
+                700: '#B48C00', 
+                800: '#947100', 
+                900: '#745700',
+             },
             ivory: {
                 DEFAULT: '#E9E9E1',
                 100: '#FFFFFF',
