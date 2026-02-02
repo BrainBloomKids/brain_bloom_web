@@ -5,7 +5,7 @@ import About from './pages/About';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/brain_bloom_web">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
