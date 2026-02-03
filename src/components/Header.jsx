@@ -95,18 +95,18 @@ export default function Header() {
 
       {/* Hamburger */}
       <button
-        className="md:hidden text-purple-900 text-4xl mr-4 mb-1.5"
+        className="md:hidden text-purple-900 text-4xl mr-4 mb-1 sm:mb-3 sm:text-5xl"
         onClick={() => setOpen(true)}
       >
         ☰
       </button>
 
       {/* Desktop Menu */}
-      <nav className="hidden md:flex flex-row gap-6 mb-3 mr-6 items-end">
+      <nav className="hidden md:flex flex-row gap-6 mb-2.5 mr-6 items-end">
         <NavLink
           to="/"
           className={({ isActive }) =>
-            `text-xl lg:text-2xl font-brand ${
+            `text-3xl font-brand ${
               isActive ? "text-purple-900" : "text-mint-900"
             } hover:text-mint-800`
           }
@@ -117,7 +117,7 @@ export default function Header() {
         <NavLink
           to="/about"
           className={({ isActive }) =>
-            `text-xl lg:text-2xl font-brand ${
+            `text-3xl  font-brand ${
               isActive ? "text-purple-900" : "text-mint-900"
             } hover:text-mint-800`
           }
@@ -129,7 +129,7 @@ export default function Header() {
       {/* Mobile Sidebar */}
       {open && (
         <div className="fixed inset-0 bg-black/40 backdrop-blur-sm md:hidden">
-          <div className="absolute left-0 top-0 h-full w-64 bg-mint-800 shadow-xl p-6 flex flex-col gap-6">
+          <div className="absolute left-0 top-0 h-full w-64 bg-mint-700 shadow-xl p-6 flex flex-col gap-6">
             <button
               className="text-3xl text-mint-900 self-end hover:text-mint-700"
               onClick={() => setOpen(false)}
@@ -141,7 +141,7 @@ export default function Header() {
               to="/"
               onClick={() => setOpen(false)}
               className={({ isActive }) =>
-                `text-2xl font-brand ${
+                `text-3xl font-brand ${
                   isActive ? "text-purple-900" : "text-mint-900"
                 } hover:text-mint-700`
               }
@@ -153,7 +153,7 @@ export default function Header() {
               to="/about"
               onClick={() => setOpen(false)}
               className={({ isActive }) =>
-                `text-2xl font-brand ${
+                `text-3xl font-brand ${
                   isActive ? "text-purple-900" : "text-mint-900"
                 } hover:text-mint-700`
               }
