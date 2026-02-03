@@ -6,7 +6,9 @@ const Home = () => {
 
       <div className="flex flex-col gap-6 bg-purple text-white mx-2 sm:mx-6 lg:mx-20 px-4 py-6 sm:px-10 lg:px-20 rounded-lg mb-6">
         <h1 className="text-3xl sm:text-4xl font-brand">Welcome to BrainBloomKids!</h1>
-
+        <div className="w-full max-w-[820px] h-auto mx-auto">
+          
+       
         <p className="text-lg sm:text-xl lg:text-2xl max-w-2xl mx-auto text-gray-800">
           Helping Kids with ADHD Grow Strong Minds<br/> Through Play and Science
         </p>
@@ -37,6 +39,7 @@ const Home = () => {
             Subscribe
           </button>
         </form>
+         </div>
       </div>
 
       <div className="flex flex-col gap-6 bg-yellow text-white mx-2 sm:mx-6 lg:mx-20 px-4 py-6 sm:px-10 lg:px-20 rounded-lg mb-6">
