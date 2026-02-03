@@ -9,7 +9,7 @@ const Layout = () => {
       <Header />
 
       <main className="flex-grow bg-ivory-200">
-        <div className=" mx-auto p-2 md:p-6">
+        <div className=" mx-auto pt-5 md:pt-7">
           <Outlet />
         </div>
       </main>

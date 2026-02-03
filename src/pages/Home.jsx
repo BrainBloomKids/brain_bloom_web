@@ -2,7 +2,7 @@ import LearningBlocks from '../assets/learningBlocks.svg';
 
 const Home = () => {
   return (
-    <section className=" flex flex-col gap-4 text-center">
+    <section className="flex flex-col gap-1 text-center">
 
       <div className="flex flex-col gap-6 bg-purple text-white mx-2 sm:mx-6 lg:mx-20 px-4 py-6 sm:px-10 lg:px-20 rounded-lg mb-6">
         <h1 className="text-3xl sm:text-4xl font-brand">Welcome to BrainBloomKids!</h1>
